@@ -40,11 +40,11 @@ b = 17
 print(a % b)
 
 #operators on strings
-#addition
+#addition: error
 a = "apples:"
 redApples = 47
 greenApples = 63
-print(a + str(redApples + greenApples))
+print(a + redApples + greenApples)
 
 #subtraction: error
 a = "hellpo wodrld"
@@ -53,20 +53,20 @@ print(a - b)
 
 #multiplication
 a = "hello"
-b = "world"
+b = 3
 print(a * b)
 
-#division
+#division: error
 a = "world"
-b = "hello"
+b = 3
 print(a / b)
 
-#double division
+#double division: error
 a = "double"
-b = "division"
+b = 3
 print(a // b)
 
-#modulo
+#modulo: error
 a = "hello"
-b = "world"
+b = 3
 print(a % b)
